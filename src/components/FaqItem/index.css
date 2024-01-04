@@ -26,3 +26,31 @@
     font-size: 24px;
   }
 }
+
+.answer {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .answer {
+    font-size: 12px;
+  }
+}
+
+.line {
+  border: 1px solid #e4e7eb;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .image {
+    height: 15px;
+    width: 15px;
+  }
+}
